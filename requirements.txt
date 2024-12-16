@@ -1,0 +1,33 @@
+# The base data science libraries
+matplotlib
+awkward # Manipulate arrays of complex jagged/awkward arrays
+uproot # Load data from ROOT files
+vector # 4-vectors and Lorentz vectors
+hist # Histograms
+pandas # Dataframes for numpy
+
+# Helper libraries for HEP!
+hepunits # Units like GeV, etc.
+Particle # Particle Data Group (PDG) database
+mplhep # Matplotlib styles for HEP
+
+# Data file libraries
+h5py
+pyarrow
+
+# Scaling
+pybind11 # For scaling with C++
+numba # For scaling with JIT and python
+jax # For scaling with GPU/TPU
+
+dask[complete]==2024.11.1 # For scaling with Dask (horizontal)
+dask-awkward # Using awkward arrays directly with dask
+
+# So you can run jupyterlib locally (not needed on uchicago)
+jupyterlab
+ipympl # Display matplotlib plots as a widget
+ipycytoscape # display execution graphs in lecture 4
+jupyterlab_rise # for lecture slides - but we aren't using them for this version.
+
+# Utilities
+aiohttp # For async IO
